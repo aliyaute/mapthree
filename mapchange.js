@@ -3,11 +3,11 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWxpeWF1dGUiLCJhIjoiY2p5ZXp1b3ZyMDBpMTNjcjdnZ
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/aliyaute/ckhp5zhh72hvs19p9di978qoj',
-    zoom: 5.25,
-    center: [-75.32, 42.88],
+    zoom: 6.40,
+    center: [-105.99, 34.41],
     maxZoom:15,
     minZoom:6,
-    maxBounds: [[-109.048428, 31.332406], [-103.000468, 37.000482]]
+    fitBounds: [[-109.048428, 31.332406], [-103.000468, 37.000482]]
 
 });
 
