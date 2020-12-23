@@ -18,7 +18,7 @@ map.on('load', function() {
         'type': 'fill',
         'source': {
             'type': 'geojson',
-            'data': 'data/map_two_Data.geojson'
+            'data': 'data/ChangeOverTimeOne.geojson'
         },
         'layout': {
             // make layer visible by default
